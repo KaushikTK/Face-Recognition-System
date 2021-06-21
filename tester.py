@@ -12,7 +12,7 @@ print("face_detected:",faces_detected)
 
 #run this when u r doing it for the first time.
 #this saves the training in a file and hence we dont have to run it again. 
-faces,faceID = fr.labels_for_training_data('D:/Kaushik/Machine_Learning/ML Projects/Face_Recognition_System_using_LPDH/trainingImages')
+faces,faceID = fr.labels_for_training_data('trainingImages')
 face_recognizer = fr.train_classifier(faces, faceID)
 face_recognizer.save('trainingData.yml')
 
