@@ -1,5 +1,3 @@
 # Face-Recognition-System
-This is a facial recognition system based on LPDH.
-It contains images of 3 people - Roopkala, Kaushik, Kannan.
-You can use the tester.py file to run this program since the model is already trained.
-Video based tester is also added.
+
+This is a facial recognition system based on LPDH. Please paste all your pictures inside the tainingImages folder in separate folders and train the model by updating the name and running the tester.py file. Once it is done, run the videotester.py file for realtime face recognition.
